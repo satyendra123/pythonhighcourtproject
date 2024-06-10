@@ -12,4 +12,15 @@
 
 
 #C) kota display project- isme actual me 3 rows and 2 columns display hai. hum 
-1) ID1@STMSAPP@DX160@SEBUDHIRAJA  PAKING  Status@SS   
+1) ID1@STMSAPP@DX160@SEBUDHIRAJA  PAKING  Status@SS   so isme hume first two tile me budhiraja dekhne milega aur 2nd tiles me humara parking print hoga aur 3rd tile me status aur uske bagal me humara data dikhega
+
+
+
+
+NOTE- RGB DISPLAY
+
+a) |C|1|4|1|28-0-#u#G25|      = small u,d,r,l ye arrow ka direction batayega aur jo capital me RGB aise rhenge to wo colour batayega. aur ye jo |4| rhta hai iska matlab ki temperary aur agr |8| rhta means permanent
+b) |C|1|4|1|28-0-#u25|     = isme upper side me arrow dikhega aur 25 data dikhega
+c) |C|1|4|1|28-0-#G258|    = isme green color me data dikhega 258 aur arrow sign nahi dikhega
+d) |P|RE                   = permanent colour set for all type of display krne ke liye. P means permanent, R means color and E means END
+e) |C|1|4|1|0-0-#u#R25|7|1| = upper side me arrow dikhega aur data dikhega red colour me   
