@@ -1,0 +1,15 @@
+#a) for single tile
+#Step-1 set id- @STID@DX96@SE1@SS  means 96 par id 1 show hone lagega display ki id set ho jayegi
+#Step-2 @ID1@STMSAPP@DX96@SEAVAILABLE@SS  ye hai taki hum bydefault msg display me dikha sake. is case me isme Available print hoga
+#STEP-3 @ID1@STDEDATA@DX-0@SE129@SS  . isse 129  data display me dikhne lagega
+
+#b) for multiple display 1 row 5 columns tile
+1) for setting the id STID@DX128@SE1@SS   id=1 set ho jayega. aur isme humne 128 hi kyu likha hai to 32*5=160 but hum last wali tile me kuch data nahi dikhana chahte hai static data. hum chahte hai ki yaha par digit ke liye jagah chor dete hai.
+  160-32=128 means 128 wale tile tak hum jo kuch bhi likhenge wo display hoga isme. aur ek chiz humesa yad rakhna ki jis side card laga hota hai data usme dusre side se enter hota hai. means agar 1st tile me controller laga hai to usme data jo hai dusre end se jana start hoga
+
+2) for setting the default- ID @ID1@STMSAPP@DX128@SEDATA@SS. SE ke bad aur SS ke pahle tak ko ye data man kar chalta hai. means humne isme default DATA set kar diya hai... jsme means humesa data hi show hone lagega
+3) for displayb the data - ID1@STDFDATA@DX160@SE86@SS. isme last wale tile me data 86 dikhne lagega
+
+
+#C) kota display project- isme actual me 3 rows and 2 columns display hai. hum 
+1) ID1@STMSAPP@DX160@SEBUDHIRAJA  PAKING  Status@SS   
